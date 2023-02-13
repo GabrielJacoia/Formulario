@@ -1,0 +1,29 @@
+@media(max-width:375px){
+    body{
+        background-color: #ff7a7a;
+    }
+    .container{
+        flex-direction: column;
+        width: 100vw;
+        
+    }
+
+    .container .informacoes{
+        width: 100%;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .container-form .titulo-formulario{
+        width: 80vw;
+        padding: 20px 55px;
+    }
+
+    .formulario{
+        width: 80vw;
+    }
+
+    .formulario .descricao{
+        text-align: center;
+    }
+}

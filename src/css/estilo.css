@@ -1,0 +1,111 @@
+:root{
+    --cor-primaria:#ff7a7a;
+    --cor-secundaria:hsl(246, 25%, 77%);
+    --cor-suporte:hsl(249, 10%, 26%);
+    --cor-botao:#38cc8c;
+}
+.imagem-fundo{
+    background-color: var(--cor-primaria);
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 100vh;
+    font-family: "poppins";
+}
+
+.container .informacoes{
+    padding:10px;
+    width: 40%;
+    margin-left: 150px;
+}
+
+.container h1{
+    padding: 10px;
+    margin: 10px 20px;
+    font-size: 35px;
+    color: #ffffff;
+    line-height: 40px;
+}
+.container p{
+    padding: 10px;
+    margin: 0 20px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-family: "poppins";
+}
+
+.container-form .titulo-formulario{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px 35px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: #ffffff;
+    box-shadow: 2px 5px var(--cor-suporte);
+}
+.titulo-formulario .cor-titulo{
+    font-weight: 400;
+}
+.formulario{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 5px var(--cor-suporte);
+}
+
+.formulario .campo-formulario{
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid var(--cor-secundaria);
+    
+}
+
+.formulario .botao{
+    margin: 10px;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: var(--cor-botao);
+    border-radius: 5px;
+    border: 1px solid var(--cor-secundaria);
+    cursor: pointer;
+}
+
+.formulario .descricao{
+    
+    font-size: 10px;
+    padding: 5px;
+    margin:5px;
+    color: var(--cor-secundaria);
+}
+
+.cor-descricao{
+    color: #ff0000;
+}
+
+
+
+
+
+
